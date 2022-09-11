@@ -91,10 +91,10 @@ const Questions = () => {
                                 </div>
                             </div>
 
-                            <div className='sm:border-l-2 sm:ml-[5px] sm:mt-2 md:w-[700px] md:mt-2 md:ml-[45px] md:border-l-2'>
+                            <div className='sm:border-l-2 sm:ml-[5px] sm:mt-2 md:w-[700px] md:mt-2 md:ml-[35px] md:border-l-2'>
                                 {question.replies?.map((reply: reply) =>
 
-                                    <div key={reply.id} className='sm:mt-3 sm:h-[250px] sm:min-h-[310px]  sm:ml-5  sm:p-3 customShadow bg-White md:w-[600px] md:ml-[52px] md:mb-3 md:flex md:h-auto md:min-h-[150px]  md:items-center md:pr-3 rounded-md' >
+                                    <div key={reply.id} className='sm:mt-3 sm:h-[250px] sm:min-h-[310px]  sm:ml-5  sm:p-3 customShadow bg-White md:w-[600px] md:ml-[63px] md:mb-3 md:flex md:h-auto md:min-h-[150px]  md:items-center md:pr-3 rounded-md' >
                                         <RepliesVotes style={"flex"} style2={"hidden"} reply={reply} setQuestions={setQuestions} questions={questions} />
                                         <div className=' sm:flex sm:flex-col md:max-h-[105px]'>
                                             <div className='md:flex md:justify-between md:items-center'>
